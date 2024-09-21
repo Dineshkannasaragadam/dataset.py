@@ -11,7 +11,7 @@ import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
 
 # Load the dataset
-file_path = '/Australian Vehicle Prices.csv'
+file_path = 'Australian Vehicle Prices.csv'
 df = pd.read_csv(file_path)
 
 # Exploratory Data Analysis (EDA)
